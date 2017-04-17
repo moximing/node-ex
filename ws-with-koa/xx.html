@@ -1,0 +1,10 @@
+<div id="user-list">
+    <div class="media" v-for="user in users">
+        <div class="media-left">
+            <img class="media-object" src="/static/user.png">
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading" v-text="user.name"></h4>
+        </div>
+    </div>
+</div>
